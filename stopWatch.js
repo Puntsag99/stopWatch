@@ -44,6 +44,8 @@ stopButton.addEventListener("click", () => {
 });
 
 reserButton.addEventListener("click", () => {
+  start.disabled = false;
+  stopButton.disabled = true;
   reserButton.disabled = true;
   clearInterval(interval);
   seconds = 0;
