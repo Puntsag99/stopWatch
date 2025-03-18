@@ -47,3 +47,8 @@
   border-radius: 9999px;
   transition: all 0.2s ease-in;
 }
+
+#buttons button:hover {
+  color: white;
+  background-color: #e67cd9;
+}
