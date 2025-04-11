@@ -8,7 +8,7 @@
   width: 100vw;
   display: flex;
   height: 100vw;
-  align-items: center;
+  padding-top: 500px;
   justify-content: center;
 }
 
